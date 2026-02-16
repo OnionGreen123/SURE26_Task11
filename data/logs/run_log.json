@@ -1,0 +1,20 @@
+[
+  {
+    "time": 1771204110.226964,
+    "event_type": "one_pass",
+    "payload": {
+      "time_s": 1.0,
+      "question": "I want to add some milk into the bowl. Is there an egg in it?",
+      "raw": "{\n  \"ambiguity\": true,\n  \"response\": \"There are three bowls in the scene. If you are asking about the wooden bowl, it does not contain an egg. If you are asking about the white bowl, it does not contain an egg. If you are asking about the patterned bowl, it does contain an egg.\",\n  \"objects\": [\n    {\n      \"name\": \"wooden bowl\",\n      \"count\": 1,\n      \"location\": \"top center\",\n      \"attributes\": [\n        \"round\",\n        \"brown\"\n      ],\n      \"contents\": []\n    },\n    {\n      \"name\": \"white bowl\",\n      \"count\": 1,\n      \"location\": \"bottom left\",\n      \"attributes\": [\n        \"round\"\n      ],\n      \"contents\": []\n    },\n    {\n      \"name\": \"patterned bowl\",\n      \"count\": 1,\n      \"location\": \"bottom right\",\n      \"attributes\": [\n        \"round\",\n        \"patterned\"\n      ],\n      \"contents\": [\n        \"egg\"\n      ]\n    }\n  ]\n}"
+    }
+  },
+  {
+    "time": 1771204114.4412012,
+    "event_type": "one_pass",
+    "payload": {
+      "time_s": 13.0,
+      "question": "I just added milk to the bowl. Is the bowl made of ceramic?",
+      "raw": "{\n  \"ambiguity\": true,\n  \"response\": \"If you are referring to the wooden bowl in the center, it is made of wood. If you are referring to the white bowl in the bottom left, I cannot tell you its material. If you are referring to the patterned bowl in the bottom right, I cannot tell you its material, but it contains milk.\",\n  \"objects\": [\n    {\n      \"name\": \"wooden bowl\",\n      \"count\": 1,\n      \"location\": \"center\",\n      \"attributes\": [],\n      \"contents\": []\n    },\n    {\n      \"name\": \"white bowl\",\n      \"count\": 1,\n      \"location\": \"bottom left\",\n      \"attributes\": [],\n      \"contents\": []\n    },\n    {\n      \"name\": \"patterned bowl\",\n      \"count\": 1,\n      \"location\": \"bottom right\",\n      \"attributes\": [],\n      \"contents\": [\n        \"milk\"\n      ]\n    }\n  ]\n}"
+    }
+  }
+]
