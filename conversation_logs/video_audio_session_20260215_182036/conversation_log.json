@@ -1,0 +1,12 @@
+{
+  "session_info": {
+    "session_id": "video_audio_session_20260215_182036",
+    "start_time": "2026-02-15T18:20:36.305735",
+    "model": "models/gemini-2.0-flash-live-001",
+    "video_mode": "video_stream_audio",
+    "video_file": "camera:0",
+    "end_time": "2026-02-15T18:20:51.941890",
+    "duration": 15.636155
+  },
+  "events": []
+}

@@ -1,0 +1,14 @@
+Video Stream Audio Analysis Summary
+==================================================
+Session ID: video_audio_session_20260215_182036
+Start Time: 2026-02-15T18:20:36.305735
+End Time: 2026-02-15T18:20:51.941890
+Duration: 15.64 seconds
+Model: models/gemini-2.0-flash-live-001
+Video File: camera:0
+
+Event Statistics:
+------------------------------
+
+Conversation Content:
+------------------------------
