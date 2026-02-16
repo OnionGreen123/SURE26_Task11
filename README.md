@@ -11,6 +11,9 @@
 ### Run (Web App)
 `streamlit run app.py`
 
+### Run (Accessible Web App)
+`streamlit run app_accessible.py`
+
 ### Web App Usage
 1) Upload a video file (mp4/mov/avi).
 2) Choose mode:
@@ -21,6 +24,12 @@
    - Use `Question` with `|` to provide one question per timestamp.
 4) Click **Run** to start.
 5) In iterative mode, answer clarification prompts until resolved, then click **Next timestamp**.
+
+### Keyboard Navigation
+- **Tab**: move forward through controls  
+- **Shift + Tab**: move backward  
+- **Enter / Space**: activate buttons (Run / Submit / Next timestamp)  
+- **Arrow keys**: change dropdown values  
 
 ### Run (CLI)
 Example (video file):
